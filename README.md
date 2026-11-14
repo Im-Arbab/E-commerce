@@ -1,4 +1,4 @@
-# LappyShop — Refurbished Laptops & Phone Marketplace
+# E-commerce — LappyShop Refurbished Laptops & Phones
 
 A MERN storefront for inspected refurbished laptops, with customer accounts, admin management,
 Stripe Checkout, and a community marketplace for new and used phones.
