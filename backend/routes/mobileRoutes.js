@@ -1,0 +1,14 @@
+import express from "express";
+import { listMobiles, createMobileListing, myMobileListings, createMobileInquiry, getMobileInquiries, replyMobileInquiry } from "../controllers/mobileController.js";
+import { protect, admin } from "../middleware/authMiddleware.js";
+import { reviewMobileListings, setMobileListingStatus } from "../controllers/mobileController.js";
+const router = express.Router();
+router.get("/", listMobiles);
+router.get("/mine", protect, myMobileListings);
+router.get("/inquiries", protect, getMobileInquiries);
+router.post("/inquiries/:id/reply", protect, replyMobileInquiry);
+router.get("/admin/review", protect, admin, reviewMobileListings);
+router.patch("/:id/status", protect, admin, setMobileListingStatus);
+router.post("/", protect, createMobileListing);
+router.post("/:id/inquiries", protect, createMobileInquiry);
+export default router;

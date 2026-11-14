@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+uploads/products/*
+!uploads/products/.gitkeep
+.DS_Store
+*.log
+.codex-write-access-check
