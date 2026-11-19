@@ -7,7 +7,7 @@ Stripe Checkout, and a community marketplace for new and used phones.
 
 - **Frontend:** React 18 (Vite), React Router, Tailwind CSS, Axios, react-hot-toast, react-icons
 - **Backend:** Node.js, Express, MongoDB + Mongoose
-- **Auth:** JWT stored in httpOnly cookies (role-based: `user` / `admin`)
+- **Auth:** JWT stored in httpOnly cookies (role-based: `user` / `admin`)...
 - **Payments:** Stripe Checkout + webhook confirmation
 - **Uploads:** Multer (local disk storage, served statically)
 - **Marketplace:** Seller-submitted mobile listings, admin review, private buyer/seller messages
