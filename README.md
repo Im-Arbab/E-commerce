@@ -139,4 +139,4 @@ With `NODE_ENV=production`, `backend/server.js` serves `frontend/dist` directly.
   `/orders/:id/pay` fallback), so it's never reduced for abandoned checkouts.
 - Prices and stock are always re-validated server-side at order creation — the client
   cart is never trusted for final pricing.
-  ###
+  
