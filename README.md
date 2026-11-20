@@ -2,7 +2,7 @@
 
 A MERN storefront for inspected refurbished laptops, with customer accounts, admin management,
 Stripe Checkout, and a community marketplace for new and used phones.
-
+.
 ## Tech Stack
 
 - **Frontend:** React 18 (Vite), React Router, Tailwind CSS, Axios, react-hot-toast, react-icons
